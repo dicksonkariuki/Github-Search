@@ -1,7 +1,7 @@
-import { RepositoryClass } from './repository-class';
+import { RepositoryClass } from "./repository-class";
 
-describe('RepositoryClass', () => {
-  it('should create an instance', () => {
+describe("RepositoryClass", () => {
+  it("should create an instance", () => {
     expect(new RepositoryClass()).toBeTruthy();
   });
 });
