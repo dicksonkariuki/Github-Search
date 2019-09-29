@@ -1,0 +1,12 @@
+.well {
+  margin-top: 200px;
+  border: 2px solid cornflowerblue;
+  width: 50%;
+  background-color: gray;
+  margin-left: 2px;
+}
+a {
+  border: 1px solid cornflowerblue;
+  background-color: rgb(87, 72, 72);
+  padding: 2px;
+}
