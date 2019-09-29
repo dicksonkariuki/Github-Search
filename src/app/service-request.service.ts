@@ -1,8 +1,8 @@
 import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
-import { environment } from "../../environments/environment";
-import { User } from "../user";
-import { Repository } from "../repository-class/repository";
+import { environment } from "../environments/environment";
+import { User } from "./user";
+import { Repository } from "./repository-class";
 import { THIS_EXPR } from "@angular/compiler/src/output/output_ast";
 @Injectable({
   providedIn: "root"

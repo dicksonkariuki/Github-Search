@@ -1,10 +1,8 @@
 import { Component, OnInit } from "@angular/core";
 import { User } from "../user";
-import { UserService } from "../users/user.service";
-import { AlertsService } from "../alert-service/alerts.service";
-import { Repository } from "../repository-class/repository";
+import { UserService } from "../user-service.service";
+import { Repository } from "../repository-class";
 import { HttpClient } from "@angular/common/http";
-import { checkAndUpdateBinding } from "@angular/core/src/view/util";
 import { environment } from "../../environments/environment";
 
 @Component({

@@ -1,8 +1,8 @@
-import { StrikethroughDirectiveDirective } from './strikethrough-directive.directive';
+import { StrikethroughDirective } from "./strikethrough.directive";
 
-describe('StrikethroughDirectiveDirective', () => {
-  it('should create an instance', () => {
-    const directive = new StrikethroughDirectiveDirective();
+describe("StrikethroughDirective", () => {
+  it("should create an instance", () => {
+    const directive = new StrikethroughDirective();
     expect(directive).toBeTruthy();
   });
 });

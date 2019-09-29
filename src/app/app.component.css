@@ -1,5 +1,8 @@
 #router {
-  background-color: mediumpurple;
+  background-color: darkblue;
   text-align: right;
-  color: cyan;
+  color: white;
+}
+.nav {
+  color: white;
 }
