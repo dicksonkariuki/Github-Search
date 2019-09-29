@@ -12,9 +12,9 @@ import { StrikethroughDirective } from "./strikethrough-directive.directive";
 import { AboutComponent } from "./about/about.component";
 import { RouterModule, Routes } from "@angular/router";
 import { DateCountPipe } from "./date-count.pipe";
-import { NavbarComponent } from './navbar/navbar.component';
+import { NavbarComponent } from "./navbar/navbar.component";
 const routes: Routes = [
-  // {path:"users",component:UserComponent},
+  { path: "Home", component: UserComponent },
   { path: "about", component: AboutComponent }
 ];
 

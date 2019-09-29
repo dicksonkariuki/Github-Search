@@ -4,19 +4,14 @@
   margin-left: 10%;
 }
 #searchButton {
-  margin-top: -3%;
-  margin-left: 31%;
+  margin-left: 40%;
+  margin-top: 0.5%;
 }
-.well {
-  border: 1px solid gray;
-  background-color: grey;
-  border-radius: 25px;
-  margin-top: 50px;
-  width: 70%;
-  margin-left: 10%;
-  height: 50%;
-}
+
 h3 {
   text-align: center;
   margin-top: 10%;
+}
+.jumbotron {
+  margin: 3%;
 }
