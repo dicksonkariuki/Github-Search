@@ -1,27 +1,22 @@
-<div class="row">
-    <div class="col-md-6">
-
-        <app-user-form (addUser)="check($event)"></app-user-form>
+<div class="jumbotron">
 
 
-        <!-- <p *ngFor='let repostory of Repository'></p> -->
-    </div>
-    <div class="col-md-6">
+    <app-user-form (addUser)="check($event)"></app-user-form>
+
+
+    <!-- <p *ngFor='let repostory of Repository'></p> -->
+
+    <div class="jumbotron">
         <blockquote class="text-center text-lg">
-            <div class="jumbotron">
 
 
-                <img src="{{repos.avatar_url}}" width="200px">
-                <h3 appStrikethrough>Username: {{repos.login}}</h3>
-                <h3>Repository: {{repos.public_repos}}</h3>
-                <h3>Followers: {{repos.followers}}</h3>
-                <h3>Following: {{repos.following}}</h3>
-                <h3>Creation-Date: {{repos.created_at}}</h3>
-                <h3><a href="{{repos.html_url}}">Github-Link </a> </h3>
 
-            </div>
-
+            <img src="{{repos.avatar_url}}" width="200px">
+            <h4>Username: {{repos.login}}</h4>
+            <h4>Repository: {{repos.public_repos}}</h4>
+            <h4>Followers: {{repos.followers}}</h4>
+            <h4>Following: {{repos.following}}</h4>
+            <h4 appStrikethrough>Creation-Date: {{repos.created_at}}</h4>
+            <h4><a href="{{repos.html_url}}">Github-Link </a> </h4>
         </blockquote>
-
     </div>
-</div>
