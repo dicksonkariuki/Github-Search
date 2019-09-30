@@ -16,7 +16,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Set up instructions.
 
-Install angular CLI to run angular applications. clone the repository from https://github.com/dicksonkariuki/Githubsearch.git.
+1.Install angular CLI to run angular applications.
+2.Clone the repository from https://github.com/dicksonkariuki/Githubsearch.git.
 
 ## Technologies used.
 
