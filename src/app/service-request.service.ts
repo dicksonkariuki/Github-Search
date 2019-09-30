@@ -13,8 +13,8 @@ export class ServiceRequestService {
   private username: string;
   items;
   constructor(private http: HttpClient) {
-    console.log("service is now ready");
-    this.username = "KAYITARES";
+    console.log("You can now access the service");
+    this.username = "dicksonkariuki";
     this.user = new User("");
     this.repos = new Repository("", 0, 0, 0, new Date(), "", "");
   }

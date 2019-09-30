@@ -12,12 +12,6 @@ import { environment } from "../../environments/environment";
   styleUrls: ["./user.component.css"]
 })
 export class UserComponent implements OnInit {
-  // users = [
-  //new User(""),
-  //]
-  //addNewUser(user){
-  //this.users.push(user)
-  //}
   username: User;
   repos: Repository;
 
