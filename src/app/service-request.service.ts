@@ -33,7 +33,7 @@ export class ServiceRequestService {
       this.http
         .get<ApiResponse>(
           "https://api.github.com/users/" +
-            this.username +
+            username +
             "?access_token=" +
             "7377647d064385d967e03bfbffdc62983c19341a"
         )
@@ -62,13 +62,12 @@ export class ServiceRequestService {
     this.http
       .get<ApiResponse>(
         "https://api.github.com/users/" +
-          this.username +
+          username +
           "?access_token=" +
           "7377647d064385d967e03bfbffdc62983c19341a"
       )
       .subscribe(data => {
         this.items = Response;
       });
-      get InputDeviceInfo()
   }
 }
