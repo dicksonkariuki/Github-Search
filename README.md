@@ -6,22 +6,33 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Behaviour Driven Development.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+| Behaviour                |              Input              |                                                      Output |
+| ------------------------ | :-----------------------------: | ----------------------------------------------------------: |
+| Search                   |      Enter user Githubname      | Display the username,followers,following,and creation Date. |
+| Show user Github profile | Click the github profile button |          Show a users github profile photo and repositories |
+| Show creation time       |                                 |                                                             |
 
-## Build
+## Set up instructions.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Install angular CLI to run angular applications. clone the repository from https://github.com/dicksonkariuki/Githubsearch.git.
 
-## Running unit tests
+## Technologies used.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1.Angular
+2.Bootstrap.
+3.Html.
+4.CSS.
 
-## Running end-to-end tests
+## Known bugs
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+The app cannot show the owner profile without searching.
 
-## Further help
+## Contact information.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+For more information contact the developer through this email:dicksonkariuki4@gmail.com. Also any helpful feedback on how to improve the app is welcome.
+
+## Licence
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sub-license, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so.
